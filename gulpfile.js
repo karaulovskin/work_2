@@ -12,10 +12,10 @@ gulp.task('server', function () {
 
 gulp.task('watch', function () {
 	gulp.watch ([
-		'app/*.html'
-		'app/js/**/*.js'
+		'app/*.html',
+		'app/js/**/*.js',
 		'app/css/**/*.css'
-	]) .on('change', browserSync.reload);
+	]).on('change', browserSync.reload);
 });
 
 gulp.task('default', ['server', 'watch']);
