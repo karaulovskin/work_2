@@ -1,6 +1,67 @@
-h1 {
-	color: green;
+body {
+	background: #3ba8c9;
 }
-p {
-	color: blue;
+
+.wrapper {
+	/*background: #3ba8c9;*/
 }
+
+.container {
+
+}
+
+.avatar-box {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid white;
+	margin: 70px auto;
+}
+
+.avatar {
+	width: 100%;
+}
+
+.socials {
+	margin: 0 auto;
+	padding: 0;
+	width: 50px;
+	/*margin-bottom: 70px;*/
+}
+
+.socials_item {
+	list-style: none;
+}
+
+.socials_link {
+	text-indent: -9999px;
+	display: block;
+	height: 50px;
+	width: 100%;
+	background: url(../img/icons/gh.png) no-repeat;
+}
+
+.socials_link:hover {
+	background: url(../img/icons/gh_hover.png) no-repeat;
+}
+
+.name {
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Muller_ExtraBold_DEMO';
+}
+
+.profesion {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+.speciality {
+	margin-bottom: 65px;
+	font-family: 'Muller_Thin_DEMO';
+}
+

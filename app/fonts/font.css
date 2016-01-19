@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Muller_Thin_DEMO';
+    src: url('Muller-Thin-DEMO.ttf');
+    src: url('Muller-Thin-DEMO.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller_ExtraBold_DEMO';
+    src: url('Muller-ExtraBold-DEMO.ttf');
+    src: url('Muller-ExtraBold-DEMO.otf');
+    font-weight: normal;
+    font-style: normal;
+}
